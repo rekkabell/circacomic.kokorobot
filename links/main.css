@@ -1,9 +1,12 @@
 body { font-family: 'alegreya-regular', serif;  overflow-x: hidden;}
 body header h1 { font-size: 45px; text-align: center; margin:30px 0px; }
+body header p { font-size: 15px; text-align: center; margin:30px 0px; }
 body #controls { text-align: center;line-height: 45px;border-bottom: 2px solid black;max-width: 800px;margin: 0px auto;}
 body #controls #location .unseen { color:#aaa; }
 body #viewer { max-width: 800px; margin:0px auto;}
 body #viewer img { width:100%; display: block}
+body footer img { width: 150px; margin:10px; }
+body footer h1 { font-size: 25px; text-align: left; margin:30px 0px; }
 body footer { max-width: 800px; margin: 0px auto; border-top:2px solid black; padding-top:30px; }
 body footer ul { margin-bottom: 30px }
 body footer ul li { display: inline-block; }
