@@ -1,2 +1,2 @@
-# circacomic
-circa comic
+# Circacomic
+

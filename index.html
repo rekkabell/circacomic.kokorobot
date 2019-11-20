@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rekka Bellum</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wiktopher is a travel story. Lupin and Eka traverse deserts and villages, meeting their inhabitants and discovering their customs.">
+  <link rel="stylesheet" href="links/reset.css"/>
+  <link rel="stylesheet" href="links/fonts.css"/>
+  <link rel="stylesheet" href="links/main.css"/>
+  <script type="text/javascript" src="scripts/lib/lightbox.js"></script>
+  <script type="text/javascript" src="scripts/lib/indental.js"></script>
+  <script type="text/javascript" src="scripts/lib/runic.js"></script>
+  <script type="text/javascript" src="scripts/database/story.tome"></script>
+  <script type="text/javascript" src="scripts/database/lexicon.tome"></script>
+  <script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/navi.js"></script>
+  <script type="text/javascript" src="scripts/note.js"></script>
+</head>
+<body>
+  <background></background>
+  <header>
+    <h1>Wiktopher</h1>
+    <h2>By <a href="http://kokorobot.ca" target="_blank">Rek Bellum</a></h2>
+  </header>
+
+  <core>
+    <div id='application'>
+      <div id='navi'></div>
+      <div id='text'></div>
+      <div id='note'></div>
+    </div>
+  </core>
+
+  <div id='footer'>
+    <wr>
+      <p>Get new chapters notices, delivered straight to your inbox by subscribing to this mailing list.</p>
+      <div class= 'subscribe'>
+        <form action="https://tinyletter.com/Wiktopher" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@address.com" required>
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </form>
+      </div>
+      <hr/>
+    </wr>
+    <div id='credits'>
+      <a href='http://kokorobot.ca' class='about' target='_blank'>Rekka Bellum</a> © 2018
+      <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=GENTPANMB62PE&currency_code=USD&source=url' class='donate' target='_blank'>Donate</a>
+      <a href="https://twitter.com/RekkaBell" class='social' target='_blank'><img src="media/interface/icon.twitter.png"></a>
+      <a href="https://www.patreon.com/100" class='social' target='_blank'><img src="media/interface/icon.patreon.png"></a>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    const app = new App(STORY,LEXICON)
+    app.start()
+
+    if(window.location.hash == ""){
+      window.location.hash = "home"
+    }
+  </script>
+
+</body>
+</html>

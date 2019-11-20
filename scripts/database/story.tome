@@ -1,0 +1,28 @@
+const STORY = new Indental(`
+
+THE NEW RECRUIT
+  BODY
+    % content/ch1.p1.jpg
+    & Losing one's own things is very irritating.
+
+THE NEW RECRUIT 2
+  BODY
+    % content/ch1.p2.jpg
+    & Losing one's own things is very irritating.
+
+THE NEW RECRUIT 3
+  BODY
+    % content/ch1.p3.jpg
+    & Losing one's own things is very irritating.
+
+THE NEW RECRUIT 4
+  BODY
+    % content/ch1.p4.jpg
+    & Losing one's own things is very irritating.
+
+THE NEW RECRUIT 5
+  BODY
+    % content/ch1.p5.jpg
+    & Losing one's own things is very irritating.
+
+`).parse();
