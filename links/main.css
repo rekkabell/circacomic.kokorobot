@@ -7,7 +7,36 @@ body #viewer { max-width: 800px; margin:0px auto;}
 body #viewer img { width:100%; display: block}
 body footer img { width: 150px; margin-right:10px; margin-bottom: 30px }
 body footer h1 { font-size: 25px; text-align: left; margin:30px 0px; }
-body footer { max-width: 800px; margin: 0px auto; border-top:2px solid black; padding-top:30px; }
+body footer { max-width: 800px; margin: 0px auto; border-top:2px solid black; }
 body footer ul { margin-bottom: 30px }
 body footer p { margin-bottom: 30px }
 body footer ul li { display: inline-block; }
+footer a.about { font-weight: bold; display: inline-block; margin-top:5px; }
+footer a.about:hover { text-decoration: underline; }
+
+.footer_social_twitter::before { background: url("../media/interface/icon.twitter.png"); }
+.footer_social_patreon::before { background: url("../media/interface/icon.patreon.png"); }
+.footer_social_100r::before { background: url("../media/interface/icon.100r.png"); }
+.footer_social_github::before { background: url("../media/interface/icon.github.png"); }
+.footer_social::before { content: ''; position: absolute; height: 20px; width: 20px; background-size: 100%; background-position: center; filter: invert(100%); left: 50%; transform: translate(-50%); }
+
+.footer_flex { display: flex; width: 100%; background: #fff; color: #000; padding: 30px 0; }
+.footer_social { width: 20px; height: 20px; position: relative; }
+.footer_item_sub-item { display: flex; justify-content: flex-end; }
+.footer_item { width: 100%; }
+.footer_right { display: flex; justify-content: flex-end; align-items: center; }
+.footer_story {width: 100%; margin: 0px auto; }
+
+.footer_social { padding:7px; }
+.footer_social:hover { opacity: 0.5 }
+
+@media only screen and (max-width: 840px) {
+  .footer h1 {margin:15px;}
+  .footer {flex-wrap: wrap; margin: 10px;}
+  .footer_story img {max-width: calc(50% - 10px);}
+  .footer_story { flex-wrap: wrap; }
+  .footer_left, .footer_right { margin: 0 10px 10px; }
+  .footer_right { justify-content: center; flex-wrap: wrap; }
+  .footer_item_sub-item { width: 100%; justify-content: center; }
+}
+
