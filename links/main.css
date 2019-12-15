@@ -15,6 +15,9 @@ body footer ul li { display: inline-block; }
 footer a.about { font-weight: bold; display: inline-block; margin-top:5px; }
 footer a.about:hover { text-decoration: underline; }
 
+.footer_banner { width: 100px; height: 40px; position: relative; }
+.footer_banner { display: flex; width: 100%;}
+
 .footer_social_twitter::before { background: url("../media/interface/icon.twitter.png"); }
 .footer_social_patreon::before { background: url("../media/interface/icon.patreon.png"); }
 .footer_social_100r::before { background: url("../media/interface/icon.100r.png"); }
@@ -36,6 +39,7 @@ footer a.about:hover { text-decoration: underline; }
   .footer {flex-wrap: wrap; margin: 10px;}
   .footer_story img {max-width: calc(50% - 10px);}
   .footer_story { flex-wrap: wrap; }
+  .footer_banner { flex-wrap: wrap; }
   .footer_left, .footer_right { margin: 0 10px 10px; }
   .footer_right { justify-content: center; flex-wrap: wrap; }
   .footer_item_sub-item { width: 100%; justify-content: center; }
