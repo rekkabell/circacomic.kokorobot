@@ -38,7 +38,7 @@ function Client () {
     }
     document.getElementById('location').innerHTML = html
 
-    this._viewer.innerHTML = `<img src='media/content/ch1.p${this.index + 1}.jpg'/>`
+    this._viewer.innerHTML = `<img src='media/content/ch1.p${this.index + 1}.png'/>`
   }
 
   // Controls
