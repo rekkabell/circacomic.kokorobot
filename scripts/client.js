@@ -7,7 +7,7 @@ function Client () {
   this._viewer = document.createElement('div')
   this._viewer.id = 'viewer'
   this.index = 0
-  this.pages = 8
+  this.pages = 9
 
   this.install = (host) => {
     this.el.appendChild(this._controls)
