@@ -2,23 +2,23 @@
 #include <stdio.h>
 #include <string.h>
 
-int chapters[] = {4, 5, 6, 7, 8};
+int chapters[] = {10};
 
-char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Grim Grains is an illustrated food blog, it features plant-based (vegan) recipes.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@RekkaBell'><meta name='twitter:title' content='Grimgrains'><meta name='twitter:description' content='An illustrated food blog.'><meta name='twitter:creator' content='@RekkaBell'><meta name='twitter:image' content='https://grimgrains.com/media/services/icon.jpg'><meta property='og:title' content='Grimgrains'><meta property='og:type' content='article'><meta property='og:url' content='http://grimgrains.com/'><meta property='og:image' content='https://grimgrains.com/media/services/icon.jpg'><meta property='og:description' content='An illustrated food blog.'><meta property='og:site_name' content='Grimgrains'><title>Circa — Chapter %d Page %d</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body>";
+char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Circa follows Montores booming gang culture, during a time when tensions between humans and hegatas, descendants of beings whose existence predates that of humans, are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@RekkaBell'><meta name='twitter:title' content='Circa Comic'><meta name='twitter:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta name='twitter:creator' content='@RekkaBell'><meta name='twitter:image' content='http://circacomic.kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='Circa Comic'><meta property='og:type' content='article'><meta property='og:url' content='http://circacomic.kokorobot.ca/'><meta property='og:image' content='https://grimgrains.com/media/services/icon.jpg'><meta property='og:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta property='og:site_name' content='Circa Comic'><title>Circa — Chapter %d Page %d</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body>";
 
 char *html_header = "<header><a href='%s.html'><img src='../media/interface/circa.logo.jpg'></a></header>";
 
-char *html_nav = "<nav><ul><li><a href='%s.html'>Back</a></li><li><a href='%s.html'>Home</a></li><li><a href='%s.html'>Next</a></li></ul></nav>";
+char *html_nav = "<nav><ul><li><a href='%s.html'>back</a></li><li><a href='chapter_01_page_01.html'>first</a></li><li><a href='%s.html'>latest</a></li><li><a href='%s.html'>next</a></li></ul></nav>";
 
-char *html_entry = "<main><img src='../media/entries/%s.jpg'/></main>";
+char *html_entry = "<main><img src='../media/content/%s.png' class='pages'/></main>";
 
-char *html_story = "<div class='story'><h2>Story</h2><p>Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas, descendants of beings whose existence predates that of humans, are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.</p></div>";
+char *html_story = "<footer><h2>Story</h2><p>Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas, descendants of beings whose existence predates that of humans, are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.</p></footer>";
 
-char *html_characters = "<div class='characters'><h2>Characters</h2><img src='../media/content/yegon.png'><img src='../media/content/seir.png'><img src='../media/content/adelie.png'></div>";
+char *html_characters = "<footer><h2>Characters</h2><img src='../media/content/yegon.png' class='characters'><img src='../media/content/seir.png' class='characters'><img src='../media/content/adelie.png' class='characters'></footer>";
 
-char *html_about = "<div class='about'><h2>About</h2><p> This webcomic was designed to reduce the energy use associated with consuming online entertainment. It is drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> and <a href='https://krita.org/en/'>Krita</a>) on Linux, I then apply an image compression technique called “<a href='https://homebrewserver.club/low-tech-website-howto.html#software'>dithering</a>”. Compressed through dithering, images featured on this website are ten times less resource-intensive. Why make a low-tech comic? Read about it <b><a href='https://solar.lowtechmagazine.com/2015/10/can-the-internet-run-on-renewable-energy/'>here</a></b>.</p></div>";
+char *html_about = "<footer><h2>About</h2><p>This website has been designed to reduce the energy use associated with accessing online entertainment. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called “dithering” to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> and <a href='https://krita.org/en/'>Krita</a>) on Linux.</p><p><a href='https://solar.lowtechmagazine.com/about.html#why_website'>Read more</a> about low-tech websites.</p></footer>";
 
-char *html_footer = "<footer><a href='about.html'>Grimgrains</a> © 2014—2020<br><a href='http://100r.co/' target='_blank'>Hundred Rabbits</a></footer></body></html>";
+char *html_footer = "<footer><a href='about.html'>Circa</a> © 2019—2020<br><a href='http://100r.co/' target='_blank'>Hundred Rabbits</a></footer></body></html>";
 
 //
 
