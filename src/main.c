@@ -25,9 +25,12 @@ void build_page(int ch, int pg, int id, int limit) {
   snprintf(filepath, 32, "../site/chapter_%02d_page_%02d.html", ch + 1, pg + 1);
   FILE *myfile = fopen(filepath, "w");
 
+  char back_link[32];
+  snprintf(back_link, 32, "chapter_%02d_page_%02d.html", ch + 1, pg + 1);
+
   fprintf(myfile, html_head, ch + 1, pg + 1);
   fputs(html_header, myfile);
-  fprintf(myfile, html_nav, "back", "home", "next");
+  fprintf(myfile, html_nav, back_link, "home", "next");
 
   fputs(html_story, myfile);
   fputs(html_characters, myfile);
