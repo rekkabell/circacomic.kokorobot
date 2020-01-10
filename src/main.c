@@ -12,13 +12,13 @@ char *html_nav = "<nav><ul><li><a href='%s.html'>back</a></li><li><a href='chapt
 
 char *html_entry = "<img src='../media/content/%s.png' class='pages'/>";
 
-char *html_story = "<div><p>Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas, descendants of beings whose existence predates that of humans, are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.</p></div>";
+char *html_story = "<div><p>\"Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas — descendants of beings whose existence predates that of humans — are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.\"</p></div>";
 
 char *html_characters = "<div><img src='../media/content/yegon.png' class='characters'><img src='../media/content/seir.png' class='characters'><img src='../media/content/adelie.png' class='characters'></div>";
 
-char *html_about = "<div><p>This website has been designed to reduce the energy use associated with accessing online entertainment. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called “dithering” to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> and <a href='https://krita.org/en/'>Krita</a>) on Linux.</p><p><a href='https://solar.lowtechmagazine.com/about.html#why_website'>Read more</a> about low-tech websites.</p></div>";
+char *html_about = "<div><p>This website has been designed to <a href='https://solar.lowtechmagazine.com/about.html#why_website'>reduce the energy use</a> associated with accessing online content. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called “dithering” to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> & <a href='https://krita.org/en/'>Krita</a>) on Linux.</p></div>";
 
-char *html_footer = "<footer><a href='about.html'>Circa</a> © 2019—2020<br><a href='http://100r.co/' target='_blank'>Hundred Rabbits</a></footer></body></html>";
+char *html_footer = "<footer><a href='about.html'>Circa</a> © 2019—2020<br><a href='http://kokorobot.ca/' target='_blank'>Rekka Bellum</a></footer></body></html>";
 
 //
 
