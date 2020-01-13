@@ -117,7 +117,7 @@ int main(void) {
     }
   }
   
-  build_page(chapters_len - 1, chapters[chapters_len - 1], "home");
+  build_page(chapters_len - 1, chapters[chapters_len - 1] - 1, "home");
 
   return (0);
 }
