@@ -16,7 +16,7 @@ char *html_story = "<div><p>\"Circa follows Montore's booming gang culture, duri
 
 char *html_characters = "<div><img src='../media/content/yegon.png' class='characters'><img src='../media/content/seir.png' class='characters'><img src='../media/content/adelie.png' class='characters'><img src='../media/content/caleb.png' class='characters'></div>";
 
-char *html_about = "<div><p>This website has been designed to <a href='https://solar.lowtechmagazine.com/about.html#why_website'>reduce the energy use</a> associated with accessing online content. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called “dithering” to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> & <a href='https://krita.org/en/'>Krita</a>) on Linux.</p></div>";
+char *html_about = "<div><p>This website has been designed to <a href='https://solar.lowtechmagazine.com/about.html#why_website'>reduce the energy use</a> associated with accessing online content. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called “dithering” to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> & <a href='https://krita.org/en/'>Krita</a>) on Linux. </p></div>";
 
 char *html_footer = "<footer><a href='about.html'>Circa</a> © 2019—2020<br><a href='http://kokorobot.ca/' target='_blank'>Rekka Bellum</a></footer></body></html>";
 
