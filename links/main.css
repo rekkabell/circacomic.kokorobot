@@ -14,10 +14,12 @@ body nav li { display: inline-block; margin:0px 5px; font-weight: normal; text-t
 body nav li:hover, body nav li:nth-child(3) { background: black; color: white;}
 body main { max-width: 800px; display: block; margin:0px auto; padding-top: 20px; }
 body main a { text-decoration: underline; }
+body main b {font-weight: bold;}
 body main > img { width: 100% }
 body main > div { margin:60px 0px; }
 body main > div > p { max-width: 700px; margin-left:45px; line-height: 25px }
 body main > div:nth-child(3) { background:black; text-align: center }
 body main > div:nth-child(3) > img { width:150px; display: inline-block; margin:5px; padding-top: 5px;}
 body main > div:nth-child(4) { font-family: 'alte_haas_grotesk_regular'; }
+body footer img { height:31px; padding-right: 5px;}
 body footer { max-width: 800px; border-top: 2px solid black; margin: 0px auto; padding: 60px 0px; padding-left: 45px; }
