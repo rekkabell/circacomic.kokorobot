@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int chapters[] = {11};
+int chapters[] = {12};
 
 char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Circa follows Montores booming gang culture, during a time when tensions between humans and hegatas, descendants of beings whose existence predates that of humans, are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@RekkaBell'><meta name='twitter:title' content='Circa Comic'><meta name='twitter:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta name='twitter:creator' content='@RekkaBell'><meta name='twitter:image' content='http://circacomic.kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='Circa Comic'><meta property='og:type' content='article'><meta property='og:url' content='http://circacomic.kokorobot.ca/'><meta property='og:image' content='https://grimgrains.com/media/services/icon.jpg'><meta property='og:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta property='og:site_name' content='Circa Comic'><title>Circa — Chapter %d Page %d</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body>";
 
@@ -14,7 +14,7 @@ char *html_entry = "<img src='../media/content/%s.png' class='pages'/>";
 
 char *html_story = "<div><p>\"Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas — descendants of beings whose existence predates that of humans — are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.\"</p></div>";
 
-char *html_characters = "<div><img src='../media/content/yegon.png' class='characters'><img src='../media/content/seir.png' class='characters'><img src='../media/content/adelie.png' class='characters'><img src='../media/content/caleb.png' class='characters'></div>";
+char *html_characters = "<div><img src='../media/content/yegon.png' class='characters'><img src='../media/content/seir.png' class='characters'><img src='../media/content/adelie.png' class='characters'><img src='../media/content/caleb.png' class='characters'><img src='../media/content/nemerald.png' class='characters'></div>";
 
 char *html_about = "<div><p>This website has been <a href='https://sitechecker.pro/page-size/'>designed</a> to <b><a href='https://solar.lowtechmagazine.com/about.html#why_website'>reduce the energy use</a></b> associated with accessing online content. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called <b><a href='https://docs.gimp.org/en/gimp-image-convert-indexed.html'>dithering</a></b> to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> & <a href='https://krita.org/en/'>Krita</a>) on <b>Linux</b>.</p><br><p><b>Last update: 13-01-20</b>. Updated on <b>Mondays</b>.</p></div>";
 
