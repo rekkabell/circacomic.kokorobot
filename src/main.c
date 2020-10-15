@@ -18,7 +18,7 @@ char *html_characters = "<div><img src='../media/content/ocportraits/yegon.jpg' 
 
 char *html_about = "<div><p>This website has been <a href='https://sitechecker.pro/page-size/'>designed</a> to <b><a href='https://solar.lowtechmagazine.com/about.html#why_website'>reduce the energy use</a></b> associated with accessing online content. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called <b><a href='https://ditherit.com/'>dithering</a></b> to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> & <a href='https://krita.org/en/'>Krita</a>) on <b>Linux</b>.</p><br><p><b>Last update: 14-10-20</b>. Updated irregularly.</p></div>";
 
-char *html_footer = "<footer><a href='about.html'>Circa</a> © 2019—2020<br><a href='http://kokorobot.ca/' target='_blank'>Rekka Bellum</a><br /><br /><a href='https://www.comic-rocket.com/explore/circa/from/'><img src='https://www.comic-rocket.com/explore/circa/follow-88x31.png'</a><a href='http://www.topwebcomics.com/vote/25837' class='banners' title='Vote for Circa on TopWebComics!''><img src='http://www.topwebcomics.com//vote_link.php?t=cubes&s=25837' class='banners'></a></footer></body></html>";
+char *html_footer = "<footer><a href='about.html'>Circa</a> © 2019—2020<br><a href='http://kokorobot.ca/' target='_blank'>Rekka Bellum</a><br /><br /><a href='https://merveilles.town/@rek' target='_blank'>Mastodon</a> | <a href='https://100r.co' target='_blank'>Hundredrabbits</a></footer></body></html>";
 
 //
 
